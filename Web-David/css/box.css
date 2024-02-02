@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 1,5em;/* 1 em son 16px*/
+    font-size: 2vw;
+}
+    h1 strong{ /*descendiente: hijo, nieto, visnieto...*/
+            color: brown;
+    } 
+            
+    h1>strong{ /*hijo directo*/
+            text-decoration: line-through;
+    }
+header{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+}
+
+nav{
+    background-color:darkgoldenrod;
+    width: 20vw;
+    height: 70vh;
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 0px;
+}
+main{
+    background-color: blueviolet;
+    width: 80vw;
+    height: 70vh;
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 20vw;
+}
